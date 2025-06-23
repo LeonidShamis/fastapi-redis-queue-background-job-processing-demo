@@ -1,0 +1,16 @@
+[project]
+name = "fastapi-redis-queue-background-job-processing-demo"
+version = "0.1.0"
+description = "FastAPI Redis Queue (rq) background job processing demo"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "fastapi>=0.115.13",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.0",
+    "redis>=6.2.0",
+    "requests>=2.32.4",
+    "rq>=2.4.0",
+    "uvicorn>=0.34.3",
+]
